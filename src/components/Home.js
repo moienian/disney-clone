@@ -29,7 +29,7 @@ const Home = () => {
           case "new":
             newDisneys = [...newDisneys, { id: doc.id, ...doc.data() }];
             break;
-          case "originals":
+          case "original":
             originals = [...originals, { id: doc.id, ...doc.data() }];
             break;
           case "trending":
